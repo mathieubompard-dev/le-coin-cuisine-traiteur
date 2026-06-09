@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "corporateEvents": "Événements d'entreprise",
+    "privateEvents": "Événements privés",
+    "about": "Nous connaître",
+    "contact": "Nous contacter"
+  },
+  "home": {
+    "title": "Traiteur d'exception pour vos événements",
+    "subtitle": "Cuisine locale, service sur mesure et organisation fluide pour chaque moment spécial.",
+    "section1": "Menu",
+    "section1Text": "Découvrez nos plats signatures, menus dégustation et options personnalisées pour événements professionnels et privés.",
+    "section2": "Ambiances sur mesure",
+    "section2Text": "Des buffets élégants aux dîners assis, nous adaptons la mise en scène à votre image.",
+    "section3": "Service complet",
+    "section3Text": "Réservation, coordination et logistique: notre équipe s'occupe de tout.",
+    "contactCta": "Nous contacter"
+  },
+  "corporate": {
+    "title": "Événements d'entreprise",
+    "text": "Repas de gala, lancements de produit, séminaires et cocktails professionnels. Nous créons une expérience culinaire raffinée, adaptée aux contraintes de votre entreprise.",
+    "highlights": [
+      "Menus adaptés à vos objectifs",
+      "Service discret et professionnel",
+      "Solutions clés en main pour événements sur site"
+    ]
+  },
+  "private": {
+    "title": "Événements privés",
+    "text": "Mariages, anniversaires, soirées familiales ou réceptions privées: chaque moment est célébré avec une cuisine créative et un service chaleureux.",
+    "highlights": [
+      "Menus personnalisés pour chaque occasion",
+      "Décoration et ambiance sur demande",
+      "Suivi dédié du premier échange au jour J"
+    ]
+  },
+  "about": {
+    "title": "Nous connaître",
+    "text": "Le Coin Cuisine Traiteur est une équipe engagée à transformer vos envies en expériences culinaires inoubliables. Nous travaillons avec des ingrédients frais et des producteurs locaux.",
+    "values": [
+      "Qualité artisanale",
+      "Proximité et écoute",
+      "Créativité et authenticité"
+    ]
+  },
+  "contact": {
+    "title": "Nous contacter",
+    "text": "Parlez-nous de votre projet et recevez une proposition sur mesure. Nous sommes disponibles par e-mail, téléphone ou via le formulaire ci-dessous.",
+    "email": "contact@lecoincuisine.fr",
+    "phone": "+33 1 23 45 67 89",
+    "formName": "Nom",
+    "formEmail": "E-mail",
+    "formMessage": "Votre message",
+    "formSubmit": "Envoyer"
+  }
+}

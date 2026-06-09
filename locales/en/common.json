@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "corporateEvents": "Corporate Events",
+    "privateEvents": "Private Events",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Exceptional catering for your events",
+    "subtitle": "Local cuisine, tailored service and smooth coordination for every special moment.",
+    "section1": "Menu",
+    "section1Text": "Discover our signature dishes, tasting menus and customization options for professional and private events.",
+    "section2": "Tailored settings",
+    "section2Text": "From elegant buffets to seated dinners, we adapt the experience to your brand and venue.",
+    "section3": "Full service",
+    "section3Text": "Booking, coordination and logistics: our team handles everything.",
+    "contactCta": "Contact us"
+  },
+  "corporate": {
+    "title": "Corporate Events",
+    "text": "Gala dinners, product launches, seminars and professional receptions. We create a refined culinary experience adapted to your company's needs.",
+    "highlights": [
+      "Menus aligned with your objectives",
+      "Discreet, professional service",
+      "Turnkey solutions for on-site events"
+    ]
+  },
+  "private": {
+    "title": "Private Events",
+    "text": "Weddings, birthdays, family celebrations or private receptions: each moment is celebrated with creative cuisine and warm service.",
+    "highlights": [
+      "Personalized menus for every occasion",
+      "Decor and ambiance on request",
+      "Dedicated follow-up from first contact to event day"
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "text": "Le Coin Cuisine Traiteur is a dedicated team transforming your ideas into memorable culinary experiences. We work with fresh ingredients and local producers.",
+    "values": [
+      "Artisan quality",
+      "Proximity and listening",
+      "Creativity and authenticity"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "Tell us about your project and receive a custom proposal. We are available by email, phone or via the form below.",
+    "email": "contact@lecoincuisine.fr",
+    "phone": "+33 1 23 45 67 89",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Your message",
+    "formSubmit": "Send"
+  }
+}
