@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import { Carousel } from "../components/Carousel";
+import Card from "../components/Card";
+import Button from "../components/Button";
 import type { ReactElement } from "react";
 
 export default function PrivateEventsPage(): ReactElement {
@@ -29,28 +31,24 @@ export default function PrivateEventsPage(): ReactElement {
 
       <section className="grid gap-6 md:grid-cols-3">
         {highlights.map((item) => (
-          <div
-            key={item}
-            className="rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-sm shadow-slate-200/50 dark:border-slate-700 dark:bg-slate-950/80"
-          >
+          <Card key={item}>
             <p className="font-medium text-slate-900 dark:text-slate-100">
               {item}
             </p>
-          </div>
+          </Card>
         ))}
       </section>
 
-      <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8 text-center dark:border-slate-700 dark:bg-slate-900/80">
+      <Card className="text-center p-8">
         <p className="text-lg leading-8 text-slate-700 dark:text-slate-300">
           {t("contact.text")}
         </p>
-        <Link
-          href="/nous-contacter"
-          className="mt-6 inline-flex rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-950 dark:hover:bg-slate-200"
-        >
-          {t("home.contactCta")}
-        </Link>
-      </div>
+        <div className="mt-6">
+          <Button href="/nous-contacter" variant="primary">
+            {t("home.contactCta")}
+          </Button>
+        </div>
+      </Card>
     </main>
   );
 }

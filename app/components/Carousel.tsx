@@ -30,7 +30,7 @@ const images = [
 
 export function Carousel() {
   return (
-    <div className="max-w-4xl rounded-3xl border border-slate-200 bg-white/90 p-2 shadow-lg shadow-slate-200/50 dark:border-slate-700 dark:bg-slate-950/90">
+    <div className="rounded-3xl border p-2 shadow-lg shadow-slate-200/50 dark:border-slate-700 dark:bg-slate-950/90">
       <Swiper
         modules={[Autoplay, Pagination]}
         pagination={{ clickable: true }}

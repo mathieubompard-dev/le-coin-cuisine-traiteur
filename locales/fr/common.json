@@ -7,15 +7,10 @@
     "contact": "Nous contacter"
   },
   "home": {
-    "title": "Traiteur d'exception pour vos événements",
-    "subtitle": "Cuisine locale, service sur mesure et organisation fluide pour chaque moment spécial.",
-    "section1": "Menu",
-    "section1Text": "Découvrez nos plats signatures, menus dégustation et options personnalisées pour événements professionnels et privés.",
-    "section2": "Ambiances sur mesure",
-    "section2Text": "Des buffets élégants aux dîners assis, nous adaptons la mise en scène à votre image.",
-    "section3": "Service complet",
-    "section3Text": "Réservation, coordination et logistique: notre équipe s'occupe de tout.",
-    "contactCta": "Nous contacter"
+    "section1Text": "Depuis 10 ans, « Le coin cuisine traiteur » accompagne entreprises et particuliers dans l’organisation de leurs événements, privés comme professionnels.",
+    "section2Text": "Traiteur familial engagé, nous offrons des prestations chaleureuses et soignées, portées par une démarche responsable.",
+    "section3Text": "Notre cheffe, Isabelle Bompard, compose une carte de saison à partir de produits frais et rigoureusement sélectionnés. Entre tradition et modernité, sa cuisine traduit notre exigence du goût.",
+    "section4Text": "Buffets, repas servis à table, baptêmes, anniversaires… Nous sommes à l’écoute pour proposer des prestations sur mesure, à votre image."
   },
   "corporate": {
     "title": "Événements d'entreprise",

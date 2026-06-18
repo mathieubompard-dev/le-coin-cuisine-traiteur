@@ -1,30 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --accent: #c57a3a; /* cuivre / terre cuite */
+  --background: #060606; /* très sombre */
+  --foreground: #efe9e6; /* crème chaude */
+  --muted-surface: rgba(255,255,255,0.03);
+  --card-bg: rgba(18,18,18,0.9);
+  --border-muted: rgba(197,122,58,0.08);
 }
 
 body {
-  background-image: url("/assets/background/fond-logo-transparent.png");
+  background-image: url("/background/fond-logo-noir.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   background-size: cover;
-  background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Geist';
 }
