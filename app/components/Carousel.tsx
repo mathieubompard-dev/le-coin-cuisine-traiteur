@@ -1,9 +1,8 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/pagination";
 
 const images = [
   {
@@ -30,22 +29,21 @@ const images = [
 
 export function Carousel() {
   return (
-    <div className="rounded-3xl border p-2 shadow-lg shadow-slate-200/50 dark:border-slate-700 dark:bg-slate-950/90">
+    <div>
       <Swiper
-        modules={[Autoplay, Pagination]}
+        modules={[Autoplay]}
         pagination={{ clickable: true }}
         autoplay={{ delay: 3500, disableOnInteraction: false }}
         loop
-        spaceBetween={24}
         slidesPerView={1}
       >
         {images.map((image) => (
           <SwiperSlide key={image.src}>
-            <div className="overflow-hidden rounded-3xl bg-slate-900/5">
+            <div className="overflow-hidden">
               <img
                 src={image.src}
                 alt={image.alt}
-                className="h-80 w-full object-cover transition duration-500 hover:scale-105"
+                className="h-130 w-full object-cover transition duration-500"
               />
             </div>
           </SwiperSlide>

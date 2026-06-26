@@ -10,11 +10,11 @@
     "title": "Exceptional catering for your events",
     "subtitle": "Local cuisine, tailored service and smooth coordination for every special moment.",
     "section1": "Menu",
-    "section1Text": "Discover our signature dishes, tasting menus and customization options for professional and private events.",
+    "text1": "Discover our signature dishes, tasting menus and customization options for professional and private events.",
     "section2": "Tailored settings",
-    "section2Text": "From elegant buffets to seated dinners, we adapt the experience to your brand and venue.",
+    "text2": "From elegant buffets to seated dinners, we adapt the experience to your brand and venue.",
     "section3": "Full service",
-    "section3Text": "Booking, coordination and logistics: our team handles everything.",
+    "text3": "Booking, coordination and logistics: our team handles everything.",
     "contactCta": "Contact us"
   },
   "corporate": {

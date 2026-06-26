@@ -9,16 +9,12 @@ type CardProps = {
 
 export default function Card({ children, className = "" }: CardProps) {
   const style: React.CSSProperties = {
-    backgroundColor: "var(--card-bg)",
-    borderColor: "var(--border-muted)",
-    color: "var(--foreground)",
+    backgroundColor: "var(--color-card-bg)",
+    color: "var(--color-text)",
   };
 
   return (
-    <div
-      className={`rounded-3xl border p-6 shadow-sm ${className}`}
-      style={style}
-    >
+    <div className={`rounded-3xl p-6 shadow-sm ${className}`} style={style}>
       {children}
     </div>
   );

@@ -6,27 +6,27 @@ import Card from "./components/Card";
 
 export default function Home() {
   const { t } = useTranslation();
+  const description = t("home.description", {
+    returnObjects: true,
+  }) as string[];
 
   return (
-    <main className="mx-auto flex w-full flex-col gap-12 p-6">
-      {/* <section className="w-full"> */}
+    <main className="mx-auto flex w-full flex-col gap-6">
       <Carousel />
-      {/* </section> */}
 
-      <section>
+      <section className="px-6">
         <Card className="grid gap-6">
-          <p className="dark:text-slate-300 font-bold">
-            {t("home.section1Text")}
-          </p>
-          <p className="dark:text-slate-300 font-bold">
-            {t("home.section2Text")}
-          </p>
-          <p className="dark:text-slate-300 font-bold">
-            {t("home.section3Text")}
-          </p>
-          <p className="dark:text-slate-300 font-bold">
-            {t("home.section4Text")}
-          </p>
+          {description.map((paragraph, index) => (
+            <p className="font-bold" key={index}>
+              {paragraph}
+            </p>
+          ))}
+        </Card>
+      </section>
+
+      <section className="px-6">
+        <Card className="grid gap-6">
+          <p className="font-bold">{t("home.theyTrustUs")}</p>
         </Card>
       </section>
     </main>

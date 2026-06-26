@@ -12,12 +12,8 @@ export function LanguageSwitcher() {
 
   return (
     <div className="flex gap-2 text-sm">
-      <Button variant="secondary" onClick={() => switchLang("fr")}>
-        FR
-      </Button>
-      <Button variant="ghost" onClick={() => switchLang("en")}>
-        EN
-      </Button>
+      <Button onClick={() => switchLang("fr")}>FR</Button>
+      <Button onClick={() => switchLang("en")}>EN</Button>
     </div>
   );
 }

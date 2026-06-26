@@ -1,19 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  --accent: #c57a3a; /* cuivre / terre cuite */
-  --background: #060606; /* très sombre */
-  --foreground: #efe9e6; /* crème chaude */
-  --muted-surface: rgba(255,255,255,0.03);
-  --card-bg: rgba(18,18,18,0.9);
-  --border-muted: rgba(197,122,58,0.08);
+  --color-accent: #c57a3a;
+  --color-background: #060606;
+  --color-text: #efe9e6;
+  --color-muted-surface: rgba(255,255,255,0.03);
+  --color-card-bg: rgba(18,18,18,0.95);
 }
 
 body {
   background-image: url("/background/fond-logo-noir.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center top;
   background-size: cover;
-  color: var(--foreground);
+  color: var(--color-text);
   font-family: 'Geist';
+}
+
+a {
+  &:hover {
+    color: var(--color-accent);
+  }
 }

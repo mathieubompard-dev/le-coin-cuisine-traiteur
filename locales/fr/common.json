@@ -7,46 +7,46 @@
     "contact": "Nous contacter"
   },
   "home": {
-    "section1Text": "Depuis 10 ans, « Le coin cuisine traiteur » accompagne entreprises et particuliers dans l’organisation de leurs événements, privés comme professionnels.",
-    "section2Text": "Traiteur familial engagé, nous offrons des prestations chaleureuses et soignées, portées par une démarche responsable.",
-    "section3Text": "Notre cheffe, Isabelle Bompard, compose une carte de saison à partir de produits frais et rigoureusement sélectionnés. Entre tradition et modernité, sa cuisine traduit notre exigence du goût.",
-    "section4Text": "Buffets, repas servis à table, baptêmes, anniversaires… Nous sommes à l’écoute pour proposer des prestations sur mesure, à votre image."
+    "description": [
+      "Depuis 10 ans, « Le coin cuisine traiteur » accompagne entreprises et particuliers dans l’organisation de leurs événements, privés comme professionnels.",
+      "Traiteur familial engagé, nous offrons des prestations chaleureuses et soignées, portées par une démarche responsable.",
+      "Notre cheffe, Isabelle Bompard, compose une carte de saison à partir de produits frais et rigoureusement sélectionnés. Entre tradition et modernité, sa cuisine traduit notre exigence du goût.",
+      "Buffets, repas servis à table, baptêmes, anniversaires… Nous sommes à l’écoute pour proposer des prestations sur mesure, à votre image."
+    ],
+    "theyTrustUs": "Ils nous font confiance"
   },
   "corporate": {
-    "title": "Événements d'entreprise",
-    "text": "Repas de gala, lancements de produit, séminaires et cocktails professionnels. Nous créons une expérience culinaire raffinée, adaptée aux contraintes de votre entreprise.",
-    "highlights": [
-      "Menus adaptés à vos objectifs",
-      "Service discret et professionnel",
-      "Solutions clés en main pour événements sur site"
-    ]
+    "description": [
+      "Spécialiste des buffets et organisation pour les entreprises, « le coin cuisine traiteur » propose des formules clefs en main, buffet, bar, service et matériel, pas de surprises tout est compris.",
+      "Nos menus dédiés aux entreprises s’adaptent à tous les types de manifestations et à tous les budgets. Nos prestations soignées et nos interventions discrètes on fait de nous le traiteur de nombreuses entreprises du 06, comme par exemple « Thales Alenia Space » qui nous fait confiance depuis plus de 10 ans pour l’organisation de leurs manifestations.",
+      "Entreprise familiale engagée, nous proposons un service traiteur, alliant qualité, convivialité, professionnalisme et respect de l’environnement."
+    ],
+    "goodChoice": "En choisissant « le coin cuisine » vous aurez l'occasion de valoriser l’image écologique de votre société auprès de vos clients et collaborateurs, et de communiquer sur votre sensibilité à cette enjeux."
   },
   "private": {
-    "title": "Événements privés",
-    "text": "Mariages, anniversaires, soirées familiales ou réceptions privées: chaque moment est célébré avec une cuisine créative et un service chaleureux.",
-    "highlights": [
-      "Menus personnalisés pour chaque occasion",
-      "Décoration et ambiance sur demande",
-      "Suivi dédié du premier échange au jour J"
+    "description": [
+      "Pour vos rendez-vous familiaux, vos anniversaires ou autres événements festifs ; « Le coin cuisine traiteur » vous propose un large choix de recettes ou menus entièrement réalisés par nos soins dans nos ateliers.",
+      "Toujours à l’écoute de nos clients, nous mettons tout en œuvre pour préparer avec vous, des évènements qui vous ressembles, rien n’est laissé au hasard.",
+      "Grâce à nos nombreux collaborateurs, nous sommes en mesure de vous proposer un large choix d’option, location de matériel, ateliers culinaires, groupe de musique, gâteau de fête, décoration à thème."
     ]
   },
   "about": {
-    "title": "Nous connaître",
-    "text": "Le Coin Cuisine Traiteur est une équipe engagée à transformer vos envies en expériences culinaires inoubliables. Nous travaillons avec des ingrédients frais et des producteurs locaux.",
-    "values": [
-      "Qualité artisanale",
-      "Proximité et écoute",
-      "Créativité et authenticité"
+    "description": [
+      "Installée à Valbonne depuis plus de 10 ans, « le coin cuisine traiteur » est avant tout une aventure familiale, la cheffe de cuisine Isabelle Bompard formée dans les grandes écoles de cuisine et Mathieu Bompard organisateur autodidacte formé au métier de la musique classique, se sont associés pour proposer un service de traiteur pour les particuliers et les entreprises. Mêlant amour de la cuisine et du goût avec la rigueur de l’organisation, notre entreprise est à notre image, généreuse, passionné, chaleureuse et soignée.",
+      "Notre projet est simple, apporter un service professionnel, conjuguant art de vivre et respect de l’environnement.",
+      "En effet, nous sommes engagés sur une demarche éco responsable. Cette démarche se traduit par :"
+    ],
+    "ecoResponsible": [
+      "- <b>L’utilisation exclusive de produits frais et de saison</b>, préparés par nos soins dans nos ateliers.",
+      "- Une <b>gestion rigoureuse des déchets</b> et la réduction de notre empreinte environnementale.",
+      "- <b>L’exclusion</b> totale <b>du plastique à usage unique</b> : tous nos contenus et nos contenants sont conçus à partir de matériaux écologiques, comme le verre ou le bois."
     ]
   },
   "contact": {
     "title": "Nous contacter",
-    "text": "Parlez-nous de votre projet et recevez une proposition sur mesure. Nous sommes disponibles par e-mail, téléphone ou via le formulaire ci-dessous.",
-    "email": "contact@lecoincuisine.fr",
-    "phone": "+33 1 23 45 67 89",
-    "formName": "Nom",
-    "formEmail": "E-mail",
-    "formMessage": "Votre message",
-    "formSubmit": "Envoyer"
+    "text": "Besoin d'un renseignement ? Vous pouvez nous contacter par e-mail, téléphone ou nous retrouver sur les réseaux sociaux.",
+    "emailLabel": "Email",
+    "phoneLabel": "Téléphone",
+    "instagramLabel": "Instagram"
   }
 }
