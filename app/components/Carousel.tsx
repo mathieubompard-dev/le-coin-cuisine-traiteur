@@ -6,23 +6,23 @@ import "swiper/css";
 
 const images = [
   {
-    src: "/carousel/entreprises.jpg",
+    src: "/carousel/entreprises.JPG",
     alt: "Des prestations sur mesures pour les entreprises et les particuliers",
   },
   {
-    src: "/carousel/thales.jpg",
+    src: "/carousel/thales.JPG",
     alt: "Des solutions pour les entreprises",
   },
   {
-    src: "/carousel/caussols.jpg",
+    src: "/carousel/caussols.JPG",
     alt: "Un engagement éco-responsable, sur lequel communiquer",
   },
   {
-    src: "/carousel/equipe.jpg",
+    src: "/carousel/equipe.JPG",
     alt: "Une équipe de professionnels engagés",
   },
   {
-    src: "/carousel/plats.jpg",
+    src: "/carousel/plats.JPG",
     alt: "Des recettes originales",
   },
 ];
