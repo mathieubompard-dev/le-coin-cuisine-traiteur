@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Le Coin Cuisine Traiteur",
-  description: "Site vitrine pour traiteur événementiel",
+  description: "Le Coin Cuisine Traiteur",
 };
 
 export default function RootLayout({
