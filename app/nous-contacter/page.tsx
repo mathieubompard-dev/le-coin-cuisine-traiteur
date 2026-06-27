@@ -1,9 +1,8 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
-import type { FormEvent, ReactElement } from "react";
+import type { ReactElement } from "react";
 import Card from "../components/Card";
-import Button from "../components/Button";
 
 export default function ContactPage(): ReactElement {
   const { t } = useTranslation();

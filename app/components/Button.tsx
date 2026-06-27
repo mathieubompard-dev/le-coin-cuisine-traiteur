@@ -5,20 +5,19 @@ import React from "react";
 
 type ButtonProps = React.HTMLAttributes<HTMLButtonElement> & {
   href?: string;
-  variant?: "primary" | "secondary" | "ghost";
+  selected?: boolean;
   className?: string;
   children: React.ReactNode;
 };
 
 export default function Button({
   href,
-  variant = "primary",
   className = "",
   children,
+  selected,
   ...rest
 }: ButtonProps) {
-  const baseStyles =
-    "inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-semibold transition";
+  const baseStyles = `inline-flex items-center justify-center rounded-full p-2 text-sm font-semibold cursor-pointer ${selected ? "text-[var(--color-accent)]" : ""} hover:text-[var(--color-accent)]`;
 
   if (href) {
     return (

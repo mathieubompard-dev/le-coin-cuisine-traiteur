@@ -14,7 +14,7 @@ export default function PrivateEventsPage(): ReactElement {
   }) as string[];
 
   return (
-    <main className="mx-auto flex w-full max-w-6xl flex-col gap-2">
+    <main className="mx-auto flex w-full flex-col gap-6">
       <Carousel />
 
       <section className="px-6">

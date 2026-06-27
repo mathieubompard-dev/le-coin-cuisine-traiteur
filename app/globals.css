@@ -16,9 +16,3 @@ body {
   color: var(--color-text);
   font-family: 'Geist';
 }
-
-a {
-  &:hover {
-    color: var(--color-accent);
-  }
-}
