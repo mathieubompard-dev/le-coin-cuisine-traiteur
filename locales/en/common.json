@@ -1,57 +1,51 @@
 {
   "nav": {
-    "menu": "Menu",
     "corporateEvents": "Corporate Events",
     "privateEvents": "Private Events",
     "about": "About Us",
-    "contact": "Contact"
+    "contact": "Contact Us"
   },
   "home": {
-    "title": "Exceptional catering for your events",
-    "subtitle": "Local cuisine, tailored service and smooth coordination for every special moment.",
-    "section1": "Menu",
-    "text1": "Discover our signature dishes, tasting menus and customization options for professional and private events.",
-    "section2": "Tailored settings",
-    "text2": "From elegant buffets to seated dinners, we adapt the experience to your brand and venue.",
-    "section3": "Full service",
-    "text3": "Booking, coordination and logistics: our team handles everything.",
-    "contactCta": "Contact us"
+    "description": [
+      "For the past 10 years, « Le coin cuisine traiteur » has been accompanying businesses and individuals in organizing their events, both private and professional.",
+      "As a family-run catering service, we offer warm and well-prepared services, driven by a responsible approach.",
+      "Our head chef, Isabelle Bompard, creates a seasonal menu using fresh and carefully selected ingredients. Between tradition and modernity, her cuisine reflects our commitment to taste.",
+      "Buffets, table service meals, baptisms, birthdays… We are always listening to propose customized services that reflect your image."
+    ],
+    "theyTrustUs": "They trust us"
   },
   "corporate": {
-    "title": "Corporate Events",
-    "text": "Gala dinners, product launches, seminars and professional receptions. We create a refined culinary experience adapted to your company's needs.",
-    "highlights": [
-      "Menus aligned with your objectives",
-      "Discreet, professional service",
-      "Turnkey solutions for on-site events"
-    ]
+    "description": [
+      "Specializing in buffets and event organization for businesses, « Le coin cuisine traiteur » offers turnkey solutions including buffet, bar, service, and equipment, with no surprises – everything is included.",
+      "Our business menus are tailored to suit all types of events and budgets. Our meticulous services and discreet interventions have made us the catering choice for many companies in the 06 area, such as « Thales Alenia Space », who have trusted us for over 10 years for organizing their events.",
+      "As a family-run business committed to sustainability, we offer a catering service that combines quality, conviviality, professionalism, and environmental respect."
+    ],
+    "goodChoice": "By choosing « Le coin cuisine », you will have the opportunity to highlight your company's ecological image to your clients and colleagues, and communicate about your sensitivity to this issue."
   },
   "private": {
-    "title": "Private Events",
-    "text": "Weddings, birthdays, family celebrations or private receptions: each moment is celebrated with creative cuisine and warm service.",
-    "highlights": [
-      "Personalized menus for every occasion",
-      "Decor and ambiance on request",
-      "Dedicated follow-up from first contact to event day"
+    "description": [
+      "For your family meetings, birthdays or other festive events; « Le coin cuisine traiteur » offers you a wide choice of recipes or menus entirely prepared by our team in our kitchens.",
+      "Always listening to our clients, we do our best to prepare with you events that reflect your personality, nothing is left to chance.",
+      "Thanks to our many collaborators, we are able to offer you a wide range of options, equipment rental, cooking workshops, music groups, birthday cakes, themed decoration."
     ]
   },
   "about": {
-    "title": "About Us",
-    "text": "Le Coin Cuisine Traiteur is a dedicated team transforming your ideas into memorable culinary experiences. We work with fresh ingredients and local producers.",
-    "values": [
-      "Artisan quality",
-      "Proximity and listening",
-      "Creativity and authenticity"
+    "description": [
+      "Established in Valbonne for more than 10 years, “the catering kitchen corner” is above all a family adventure, the chef Isabelle Bompard trained in major cooking schools and Mathieu Bompard a self-taught organizer trained in the profession of classical music, have joined forces to offer a catering service for individuals and businesses. Combining a love of cooking and taste with the rigor of organization, our company reflects our image: generous, passionate, warm and careful.",
+      "Our project is simple, to provide a professional service, combining the art of living and respect for the environment.",
+      "Indeed, we are committed to an eco-responsible approach. This approach is reflected in:"
+    ],
+    "ecoResponsible": [
+      "- <b>Exclusive use of fresh, seasonal products</b>, prepared by us in our workshops.",
+      "- <b>Rigorous waste management</b> and the reduction of our environmental footprint.",
+      "- <b>Complete exclusion</b> of <b>single-use plastic</b> : all our contents and containers are designed from eco-friendly materials, such as glass or wood."
     ]
   },
   "contact": {
-    "title": "Contact",
-    "text": "Tell us about your project and receive a custom proposal. We are available by email, phone or via the form below.",
-    "email": "contact@lecoincuisine.fr",
-    "phone": "+33 1 23 45 67 89",
-    "formName": "Name",
-    "formEmail": "Email",
-    "formMessage": "Your message",
-    "formSubmit": "Send"
+    "title": "Contact Us",
+    "text": "Need information? You can contact us by email, phone or find us on social media.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "instagramLabel": "Instagram"
   }
 }
