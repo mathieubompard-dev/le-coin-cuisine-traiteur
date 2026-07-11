@@ -11,9 +11,7 @@ export default function Home() {
   }) as string[];
 
   return (
-    <main className="mx-auto flex w-full flex-col gap-6">
-      <Carousel />
-
+    <main className="mx-auto flex w-full flex-col gap-6 py-6">
       <section className="px-6">
         <Card className="grid gap-6">
           {description.map((paragraph, index) => (
