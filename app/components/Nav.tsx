@@ -47,7 +47,7 @@ export default function Nav() {
   return (
     <div>
       <header className="sticky top-0 z-20 bg-[var(--color-background)] backdrop-blur">
-        <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-6 py-4">
+        <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 pr-6 py-2">
           <Link href="/">
             <img
               src="/logo/logo-noir.png"
@@ -138,7 +138,7 @@ export default function Nav() {
           </div>
         </div>
       </header>
-      {currentPath !== "/nous-contacter" && <Carousel />}
+      {currentPath !== "/nous-contacter" && <Carousel continuous={false} />}
     </div>
   );
 }
