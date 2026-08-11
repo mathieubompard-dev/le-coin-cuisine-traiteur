@@ -29,9 +29,13 @@ const defaultImages = [
 export function Carousel({
   images: imagesProp,
   continuous = true,
+  imageFit = "cover",
+  aspectClass = "aspect-video",
 }: {
   images?: { src: string; alt?: string }[];
   continuous?: boolean;
+  imageFit?: "cover" | "contain";
+  aspectClass?: string;
 }) {
   const images = imagesProp ?? defaultImages;
 
@@ -57,7 +61,7 @@ export function Carousel({
             <img
               src={image.src}
               alt={image.alt ?? ""}
-              className="block aspect-video max-h-130 w-full object-cover transition duration-500"
+              className={`block ${aspectClass} max-h-130 w-full object-${imageFit} transition duration-500`}
             />
           </SwiperSlide>
         ))}

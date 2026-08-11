@@ -82,7 +82,7 @@ export default function Home() {
         <section className="px-6">
           <Card className="grid gap-4">
             <p className="font-bold">{t("home.theyTrustUs")}</p>
-          <Carousel images={trustImages} />
+          <Carousel images={trustImages} imageFit="contain" aspectClass="aspect-auto" />
           </Card>
         </section>
     </main>
