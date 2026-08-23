@@ -10,14 +10,23 @@ export default function Home() {
   const description = t("home.description", {
     returnObjects: true,
   }) as string[];
+  const trustedCompanies = [
+    "Thales Alenia Space Cannes",
+    "Brockton Capital MIPIM",
+    "Orchestre de Cannes",
+    "Green room expérience GP Monaco",
+    "Cinéum de Cannes",
+    "Sophia Engineering",
+    "Polytech Sophia",
+    "Padel Riviera Mougins",
+    "Wolfgang Yacht Nice",
+    "Plage de l’Alba Cannes 06",
+    "Association Cannes Cinema",
+  ];
 
   const [accueilImages, setAccueilImages] = useState<
     { src: string; alt?: string }[] | undefined
   >(undefined);
-  const [trustImages, setTrustImages] = useState<
-    { src: string; alt?: string }[] | undefined
-  >(undefined);
-
   useEffect(() => {
     let mounted = true;
 
@@ -30,7 +39,7 @@ export default function Home() {
             data.images.map((name: string) => ({
               src: `/images/accueil/${encodeURIComponent(name)}`,
               alt: name.replace(/\.[^/.]+$/, ""),
-            }))
+            })),
           );
         } else {
           setAccueilImages(undefined);
@@ -39,25 +48,6 @@ export default function Home() {
       .catch(() => {
         if (mounted) setAccueilImages(undefined);
       });
-    fetch("/api/images?dir=images/trust")
-      .then((res) => res.json())
-      .then((data) => {
-        if (!mounted) return;
-        if (data?.images?.length) {
-          setTrustImages(
-            data.images.map((name: string) => ({
-              src: `/images/trust/${encodeURIComponent(name)}`,
-              alt: name.replace(/\.[^/.]+$/, ""),
-            }))
-          );
-        } else {
-          setTrustImages(undefined);
-        }
-      })
-      .catch(() => {
-        if (mounted) setTrustImages(undefined);
-      });
-
     return () => {
       mounted = false;
     };
@@ -79,12 +69,23 @@ export default function Home() {
         <Carousel images={accueilImages} />
       </section>
 
-        <section className="px-6">
-          <Card className="grid gap-4">
-            <p className="font-bold">{t("home.theyTrustUs")}</p>
-          <Carousel images={trustImages} imageFit="contain" aspectClass="aspect-auto" />
-          </Card>
-        </section>
+      <section className="px-6">
+        <Card className="grid gap-6">
+          <h1 className="text-l uppercase tracking-[0.15em] text-[var(--color-accent)]">
+            {t("home.theyTrustUs")}
+          </h1>
+          <ul className="grid gap-x-8 gap-y-3 border-y border-[var(--color-accent)]/35 py-5 text-center text-sm font-medium leading-6 sm:grid-cols-2 lg:grid-cols-4">
+            {trustedCompanies.map((company) => (
+              <li
+                className="flex text-lg items-center justify-center px-2 text-[var(--color-text)]"
+                key={company}
+              >
+                {company}
+              </li>
+            ))}
+          </ul>
+        </Card>
+      </section>
     </main>
   );
 }
