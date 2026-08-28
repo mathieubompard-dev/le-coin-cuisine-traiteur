@@ -46,7 +46,7 @@ export default function Nav() {
 
   return (
     <div>
-      <header className="sticky top-0 z-20 bg-[var(--color-background)] backdrop-blur">
+      <header className="sticky top-0 z-20 bg-[#000000] backdrop-blur">
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 pr-6 py-2">
           <Link href="/">
             <img
@@ -115,7 +115,7 @@ export default function Nav() {
             {open && (
               <div
                 id="mobile-menu"
-                className="absolute right-6 top-20 z-30 w-[calc(100%-3rem)] max-w-xs rounded-md border bg-[var(--color-background)] p-4 shadow-lg"
+                className="absolute right-6 top-20 z-30 w-[calc(100%-3rem)] max-w-xs rounded-md border bg-[#000000] p-4 shadow-lg"
               >
                 <nav className="flex flex-col gap-3">
                   {links.map((link) => (

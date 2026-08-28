@@ -30,7 +30,7 @@ export default function AboutPage(): ReactElement {
             data.images.map((name: string) => ({
               src: `/images/nous_connaitre/${encodeURIComponent(name)}`,
               alt: name.replace(/\.[^/.]+$/, ""),
-            }))
+            })),
           );
         } else {
           setGalleryImages(undefined);
@@ -54,7 +54,7 @@ export default function AboutPage(): ReactElement {
               {paragraph}
             </p>
           ))}
-          </Card>
+        </Card>
       </section>
 
       <section className="px-6">

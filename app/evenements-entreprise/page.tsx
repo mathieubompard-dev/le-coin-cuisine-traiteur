@@ -27,7 +27,7 @@ export default function CorporateEventsPage(): ReactElement {
             data.images.map((name: string) => ({
               src: `/images/entreprise/${encodeURIComponent(name)}`,
               alt: name.replace(/\.[^/.]+$/, ""),
-            }))
+            })),
           );
         } else {
           setGalleryImages(undefined);
@@ -44,7 +44,6 @@ export default function CorporateEventsPage(): ReactElement {
 
   return (
     <main className="mx-auto flex w-full flex-col gap-4 py-6">
-
       <section className="px-6">
         <Card className="grid gap-6">
           {description.map((paragraph, index) => (
@@ -58,7 +57,7 @@ export default function CorporateEventsPage(): ReactElement {
       <section className="px-6">
         <Carousel images={galleryImages} />
       </section>
-      
+
       <section className="px-6">
         <Card className="grid gap-6">
           <p className="font-bold italic">{t("corporate.goodChoice")}</p>

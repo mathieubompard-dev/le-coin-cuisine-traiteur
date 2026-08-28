@@ -27,7 +27,7 @@ export default function PrivateEventsPage(): ReactElement {
             data.images.map((name: string) => ({
               src: `/images/priv%C3%A9/${encodeURIComponent(name)}`,
               alt: name.replace(/\.[^/.]+$/, ""),
-            }))
+            })),
           );
         } else {
           setGalleryImages(undefined);

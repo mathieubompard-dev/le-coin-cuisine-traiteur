@@ -28,9 +28,9 @@ export default function ContactPage(): ReactElement {
             </h2>
             <a
               className="mt-2 underline block text-base underline-offset-4 hover:underline"
-              href="mailto:contact@le-coin-cuisine-traiteur.fr"
+              href="mailto:contact@lecoincuisinetraiteur.fr"
             >
-              contact@le-coin-cuisine-traiteur.fr
+              contact@lecoincuisinetraiteur.fr
             </a>
           </div>
           <div>
@@ -39,9 +39,15 @@ export default function ContactPage(): ReactElement {
             </h2>
             <a
               className="mt-2 underline block text-base underline-offset-4 hover:underline"
-              href="tel:+33123456789"
+              href="tel:0615155064"
             >
-              +33 1 23 45 67 89
+              06 15 15 50 64
+            </a>
+            <a
+              className="mt-2 underline block text-base underline-offset-4 hover:underline"
+              href="tel:0625026362"
+            >
+              06 25 02 63 62
             </a>
           </div>
           <div>

@@ -16,3 +16,59 @@ body {
   color: var(--color-text);
   font-family: 'Geist';
 }
+
+.trust-marquee {
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 8%,
+    black 92%,
+    transparent
+  );
+}
+
+.trust-marquee__track {
+  display: flex;
+  width: max-content;
+  animation: trust-marquee-scroll 35s linear infinite;
+}
+
+.trust-marquee__list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-right: 2rem;
+}
+
+.trust-marquee__item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  white-space: nowrap;
+  color: var(--color-text);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.trust-marquee__dot {
+  display: block;
+  width: 0.45rem;
+  height: 0.45rem;
+  flex: 0 0 auto;
+  border-radius: 100%;
+  background-color: var(--color-accent);
+}
+
+@keyframes trust-marquee-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trust-marquee__track {
+    animation-play-state: paused;
+  }
+}

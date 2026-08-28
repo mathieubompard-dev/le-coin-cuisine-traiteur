@@ -74,16 +74,30 @@ export default function Home() {
           <h1 className="text-l uppercase tracking-[0.15em] text-[var(--color-accent)]">
             {t("home.theyTrustUs")}
           </h1>
-          <ul className="grid gap-x-8 gap-y-3 border-y border-[var(--color-accent)]/35 py-5 text-center text-sm font-medium leading-6 sm:grid-cols-2 lg:grid-cols-4">
-            {trustedCompanies.map((company) => (
-              <li
-                className="flex text-lg items-center justify-center px-2 text-[var(--color-text)]"
-                key={company}
-              >
-                {company}
-              </li>
-            ))}
-          </ul>
+          <div
+            className="trust-marquee border-y border-[var(--color-accent)]/35 py-5"
+            aria-label={t("home.theyTrustUs")}
+          >
+            <div className="trust-marquee__track">
+              {[0, 1].map((copy) => (
+                <ul
+                  aria-hidden={copy === 1}
+                  className="trust-marquee__list"
+                  key={copy}
+                >
+                  {trustedCompanies.map((company) => (
+                    <li
+                      className="trust-marquee__item"
+                      key={`${copy}-${company}`}
+                    >
+                      <span className="trust-marquee__dot" aria-hidden="true" />
+                      {company}
+                    </li>
+                  ))}
+                </ul>
+              ))}
+            </div>
+          </div>
         </Card>
       </section>
     </main>
