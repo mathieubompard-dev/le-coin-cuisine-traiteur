@@ -67,8 +67,31 @@ body {
   }
 }
 
+.gallery-marquee__track {
+  display: flex;
+  width: max-content;
+  animation: gallery-marquee-scroll var(--gallery-duration, 35s) linear infinite;
+}
+
+.gallery-marquee__list {
+  display: flex;
+  flex-shrink: 0;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+@keyframes gallery-marquee-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .trust-marquee__track {
+    animation-play-state: paused;
+  }
+
+  .gallery-marquee__track {
     animation-play-state: paused;
   }
 }
