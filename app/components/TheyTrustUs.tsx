@@ -21,12 +21,12 @@ export function TheyTrustUs() {
   ];
 
   return (
-    <Card className="grid gap-6">
+    <Card className="grid py-4 gap-3">
       <h1 className="text-l uppercase tracking-[0.15em] text-[var(--color-accent)]">
         {t("home.theyTrustUs")}
       </h1>
       <div
-        className="trust-marquee border-y border-[var(--color-accent)]/35 py-5"
+        className="trust-marquee border-y border-[var(--color-accent)]/35 py-3"
         aria-label={t("home.theyTrustUs")}
       >
         <div className="trust-marquee__track">
