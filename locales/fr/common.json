@@ -20,6 +20,9 @@
       "Nos menus dédiés aux entreprises s’adaptent à tous les types de manifestations et à tous les budgets. Nos prestations soignées et nos interventions discrètes on fait de nous le traiteur de nombreuses entreprises du 06, comme par exemple « Thales Alenia Space » qui nous fait confiance depuis plus de 10 ans pour l’organisation de leurs manifestations.",
       "Entreprise familiale engagée, nous proposons un service traiteur, alliant qualité, convivialité, professionnalisme et respect de l’environnement."
     ],
+    "viewMenu": "Voir le menu",
+    "menuTitle": "Menu buffet entreprise",
+    "closeMenu": "Fermer le menu",
     "goodChoice": "En choisissant « le coin cuisine » vous aurez l'occasion de valoriser l’image écologique de votre société auprès de vos clients et collaborateurs, et de communiquer sur votre sensibilité à cette enjeux."
   },
   "private": {
@@ -46,6 +49,6 @@
     "text": "Besoin d'un renseignement ? Vous pouvez nous contacter par e-mail, téléphone ou nous retrouver sur les réseaux sociaux.",
     "emailLabel": "Email",
     "phoneLabel": "Téléphone",
-    "instagramLabel": "Instagram"
+    "socialNetworksLabel": "Réseaux sociaux"
   }
 }

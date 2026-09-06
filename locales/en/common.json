@@ -20,6 +20,9 @@
       "Our business menus are tailored to suit all types of events and budgets. Our meticulous services and discreet interventions have made us the catering choice for many companies in the 06 area, such as « Thales Alenia Space », who have trusted us for over 10 years for organizing their events.",
       "As a family-run business committed to sustainability, we offer a catering service that combines quality, conviviality, professionalism, and environmental respect."
     ],
+    "viewMenu": "View the menu",
+    "menuTitle": "Corporate buffet menu",
+    "closeMenu": "Close the menu",
     "goodChoice": "By choosing « Le coin cuisine », you will have the opportunity to highlight your company's ecological image to your clients and colleagues, and communicate about your sensitivity to this issue."
   },
   "private": {
@@ -46,6 +49,6 @@
     "text": "Need information? You can contact us by email, phone or find us on social media.",
     "emailLabel": "Email",
     "phoneLabel": "Phone",
-    "instagramLabel": "Instagram"
+    "socialNetworksLabel": "Social media"
   }
 }
