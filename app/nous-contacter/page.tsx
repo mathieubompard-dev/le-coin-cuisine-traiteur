@@ -13,10 +13,10 @@ export default function ContactPage(): ReactElement {
       <section>
         <Card>
           <div className="space-y-4">
-            <h1 className="text-2xl uppercase tracking-[0.15em] text-[var(--color-accent)]">
+            <h1 className="text-xl uppercase tracking-[0.15em] text-[var(--color-accent)]">
               {t("nav.contact")}
             </h1>
-            <p className="text-lg">{t("contact.text")}</p>
+            <p>{t("contact.text")}</p>
           </div>
         </Card>
       </section>

@@ -43,11 +43,11 @@ export default function Home() {
 
   return (
     <main className="mx-auto flex w-full flex-col gap-4 py-6">
-      <section className="px-6">
+      <section className="px-2">
         <TheyTrustUs />
       </section>
 
-      <section className="px-6">
+      <section className="px-2">
         <Card className="grid gap-6">
           {description.map((paragraph, index) => (
             <p className="font-bold" key={index}>
@@ -57,7 +57,7 @@ export default function Home() {
         </Card>
       </section>
 
-      <section className="px-3">
+      <section className="px-2">
         <Carousel images={accueilImages} />
       </section>
     </main>

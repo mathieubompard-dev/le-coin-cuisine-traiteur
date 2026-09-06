@@ -44,8 +44,11 @@ export default function PrivateEventsPage(): ReactElement {
 
   return (
     <main className="mx-auto flex w-full flex-col gap-4 py-6">
-      <section className="px-6">
+      <section className="px-2">
         <Card className="grid gap-6">
+          <h1 className="text-xl uppercase tracking-[0.15em] text-[var(--color-accent)]">
+            {t("nav.privateEvents")}
+          </h1>
           {description.map((paragraph, index) => (
             <p className="font-bold" key={index}>
               {paragraph}
@@ -54,7 +57,7 @@ export default function PrivateEventsPage(): ReactElement {
         </Card>
       </section>
 
-      <section className="px-6">
+      <section className="px-2">
         <Carousel images={galleryImages} />
       </section>
     </main>
