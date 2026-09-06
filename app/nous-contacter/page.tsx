@@ -3,6 +3,7 @@
 import { useTranslation } from "react-i18next";
 import type { ReactElement } from "react";
 import Card from "../components/Card";
+import { TheyTrustUs } from "../components/TheyTrustUs";
 
 export default function ContactPage(): ReactElement {
   const { t } = useTranslation();
@@ -65,6 +66,10 @@ export default function ContactPage(): ReactElement {
           </div>
         </div>
       </Card>
+
+      <section>
+        <TheyTrustUs />
+      </section>
     </main>
   );
 }

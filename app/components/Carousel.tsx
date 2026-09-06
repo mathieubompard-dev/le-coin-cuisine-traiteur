@@ -6,6 +6,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import Card from "./Card";
 
+// refacto et charger les images dynamiquement comme pour les autres carousel
 const defaultImages = [
   {
     src: "/carousel/entreprises.JPG",
@@ -63,7 +64,7 @@ export function Carousel({
 
   if (imagesProp) {
     return (
-      <Card className="px-2">
+      <Card className="px-3 py-3">
         <div className="gallery-marquee w-full min-w-0 overflow-hidden">
           <div className="gallery-marquee__track">
             {[0, 1].map((copy) => (
