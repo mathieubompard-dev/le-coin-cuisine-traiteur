@@ -40,12 +40,6 @@ export default function ContactPage(): ReactElement {
             </h2>
             <a
               className="mt-2 underline block text-base underline-offset-4 hover:underline hover:text-[var(--color-accent)]"
-              href="tel:0615155064"
-            >
-              06 15 15 50 64
-            </a>
-            <a
-              className="mt-2 underline block text-base underline-offset-4 hover:underline hover:text-[var(--color-accent)]"
               href="tel:0625026362"
             >
               06 25 02 63 62
